@@ -1,0 +1,10 @@
+python deepseek.py --max-rows 1 --verbose --
+=== Aggregate Summary ===
+{
+  "well_ai": 37,
+  "well_orig": 13,
+  "well_tie": 0,
+  "hum_ai": 15,
+  "hum_orig": 35,
+  "hum_tie": 0
+}

@@ -1,0 +1,29 @@
+=== Multi-Model Judging Summary ===
+Generation model: deepseek/deepseek-chat-v3.1
+Judges: grok4 -> x-ai/grok-4, claude4sonnet -> anthropic/claude-sonnet-4, gpt5 -> openai/gpt-5
+Articles evaluated: 20
+Max output tokens per call: 4096
+
+--- grok4 (x-ai/grok-4) ---
+Articles: 20
+Well-written: AI=14 (70.0%), Original=6 (30.0%), Tie=0 (0.0%)
+Human-written: AI=3 (15.0%), Original=17 (85.0%), Tie=0 (0.0%)
+Cross: both_ai=3, both_orig=6, well_ai_human_orig=11, well_orig_human_ai=0, any_tie=0
+Mean confidence: well=0.870 (n=20), human=0.863 (n=20)
+Files: outputs\grok4\per_article_results_grok4.jsonl, outputs\grok4\per_article_results_grok4.csv, outputs\grok4\results_bar_chart_grok4.png
+
+--- claude4sonnet (anthropic/claude-sonnet-4) ---
+Articles: 20
+Well-written: AI=15 (75.0%), Original=5 (25.0%), Tie=0 (0.0%)
+Human-written: AI=2 (10.0%), Original=18 (90.0%), Tie=0 (0.0%)
+Cross: both_ai=2, both_orig=5, well_ai_human_orig=13, well_orig_human_ai=0, any_tie=0
+Mean confidence: well=0.845 (n=20), human=0.812 (n=20)
+Files: outputs\claude4sonnet\per_article_results_claude4sonnet.jsonl, outputs\claude4sonnet\per_article_results_claude4sonnet.csv, outputs\claude4sonnet\results_bar_chart_claude4sonnet.png
+
+--- gpt5 (openai/gpt-5) ---
+Articles: 20
+Well-written: AI=9 (45.0%), Original=11 (55.0%), Tie=0 (0.0%)
+Human-written: AI=0 (0.0%), Original=20 (100.0%), Tie=0 (0.0%)
+Cross: both_ai=0, both_orig=11, well_ai_human_orig=9, well_orig_human_ai=0, any_tie=0
+Mean confidence: well=0.793 (n=20), human=0.780 (n=20)
+Files: outputs\gpt5\per_article_results_gpt5.jsonl, outputs\gpt5\per_article_results_gpt5.csv, outputs\gpt5\results_bar_chart_gpt5.png
